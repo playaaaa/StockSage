@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def load_data(file_path: str) -> pd.DataFrame:
     data = pd.read_csv(file_path)
-    return data[['Close']]  # Загружаем только столбец 'Close'
+    return data[['Close']]
 
 def normalize_data(data: pd.DataFrame) -> np.ndarray:
     scaler = MaxAbsScaler()
