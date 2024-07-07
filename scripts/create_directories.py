@@ -5,7 +5,6 @@ def create_directories():
     directories = {
         "data": ["prediction", "preprocessed", "stock"],
         "models": [],
-        "predictions": []
     }
     
     for main_dir, sub_dirs in directories.items():
