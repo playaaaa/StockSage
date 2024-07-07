@@ -1,5 +1,4 @@
 # StockSage
-## Stock price prediction using Machine Learning
 StockSage is a machine learning project designed to forecast stock prices using historical market data. The project utilizes several Python libraries and machine learning models to analyze and predict stock market trends.
 
 ## Features
