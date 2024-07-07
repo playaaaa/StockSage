@@ -78,7 +78,6 @@ def main(ticker_symbol, timesteps, epochs, batch_size, model_name):
             print("The model is saved!")
             model.save(f"./models/{model_name}.keras")
 
-    # Загружаем лучшую модель и оцениваем
     model = tf.keras.models.load_model(f"./models/{model_name}.keras")
     y_pred_test = model.predict(X_test)
     test_reward = get_reward(y_test, y_pred_test)
